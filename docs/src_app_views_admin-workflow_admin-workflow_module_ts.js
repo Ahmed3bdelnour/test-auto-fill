@@ -932,14 +932,14 @@ class AdminWorkflowModule {
   }
   static {
     this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_68__["ɵɵdefineInjector"]({
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_69__.CommonModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_70__.TranslateModule, _blocks_page_page_module__WEBPACK_IMPORTED_MODULE_4__.PageModule, _angular_forms__WEBPACK_IMPORTED_MODULE_71__.FormsModule, ngx_file_drop__WEBPACK_IMPORTED_MODULE_72__.NgxFileDropModule, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_73__.DragDropModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.IconsModule, ngx_smart_modal__WEBPACK_IMPORTED_MODULE_74__.NgxSmartModalModule, ngx_perfect_scrollbar_portable__WEBPACK_IMPORTED_MODULE_75__.PerfectScrollbarModule, _admin_workflow_routing_module__WEBPACK_IMPORTED_MODULE_5__.AdminWorkflowRoutingModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FieldsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.AutoFocusFirstInputModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.LabelModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.CheckboxModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.RadioButtonsGroupModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.ModalHeaderModule, _blocks_components_components_module__WEBPACK_IMPORTED_MODULE_1__.ComponentsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.TabBarModule, _blocks_directives_directives_module__WEBPACK_IMPORTED_MODULE_2__.DirectivesModule, _blocks_formatters_formatters_module__WEBPACK_IMPORTED_MODULE_3__.FormattersModule]
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_69__.CommonModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_70__.TranslateModule, _blocks_page_page_module__WEBPACK_IMPORTED_MODULE_4__.PageModule, _angular_forms__WEBPACK_IMPORTED_MODULE_71__.FormsModule, ngx_file_drop__WEBPACK_IMPORTED_MODULE_72__.NgxFileDropModule, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_73__.DragDropModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.IconsModule, ngx_smart_modal__WEBPACK_IMPORTED_MODULE_74__.NgxSmartModalModule, ngx_perfect_scrollbar_portable__WEBPACK_IMPORTED_MODULE_75__.PerfectScrollbarModule, _admin_workflow_routing_module__WEBPACK_IMPORTED_MODULE_5__.AdminWorkflowRoutingModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FieldsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.AutoFocusFirstInputModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.LabelModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.CheckboxModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.RadioButtonsGroupModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.ModalHeaderModule, _blocks_components_components_module__WEBPACK_IMPORTED_MODULE_1__.ComponentsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.TabBarModule, _blocks_directives_directives_module__WEBPACK_IMPORTED_MODULE_2__.DirectivesModule, _blocks_formatters_formatters_module__WEBPACK_IMPORTED_MODULE_3__.FormattersModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.ActionDropdownModule]
     });
   }
 }
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_68__["ɵɵsetNgModuleScope"](AdminWorkflowModule, {
     declarations: [_admin_workflow_component__WEBPACK_IMPORTED_MODULE_6__.AdminWorkflowComponent, _step_ocr_step_ocr_component__WEBPACK_IMPORTED_MODULE_56__.StepOcrComponent, _step_forms_step_forms_component__WEBPACK_IMPORTED_MODULE_42__.StepFormsComponent, _step_delivery_filebound_step_delivery_filebound_component__WEBPACK_IMPORTED_MODULE_33__.StepDeliveryFileboundComponent, _step_interactive_step_interactive_component__WEBPACK_IMPORTED_MODULE_52__.StepInteractiveComponent, _step_interactive_step_interactive_roles_step_interactive_roles_component__WEBPACK_IMPORTED_MODULE_49__.StepInteractiveRolesComponent, _step_interactive_step_interactive_indexing_step_interactive_indexing_component__WEBPACK_IMPORTED_MODULE_47__.StepInteractiveIndexingComponent, _step_interactive_step_interactive_groupings_step_interactive_groupings_component__WEBPACK_IMPORTED_MODULE_46__.StepInteractiveGroupingsComponent, _step_interactive_step_interactive_outcomes_step_interactive_outcomes_component__WEBPACK_IMPORTED_MODULE_48__.StepInteractiveOutcomesComponent, _scan_settings_scan_settings_component__WEBPACK_IMPORTED_MODULE_13__.ScanSettingsComponent, _step_bursting_step_bursting_component__WEBPACK_IMPORTED_MODULE_18__.StepBurstingComponent, _workflow_editor_workflow_editor_component__WEBPACK_IMPORTED_MODULE_67__.WorkflowEditorComponent, _step_interactive_step_interactive_capabilities_step_interactive_capabilities_component__WEBPACK_IMPORTED_MODULE_45__.StepInteractiveCapabilitiesComponent, _step_start_step_start_component__WEBPACK_IMPORTED_MODULE_64__.StepStartComponent, _step_imageprocessing_step_imageprocessing_component__WEBPACK_IMPORTED_MODULE_43__.StepImageprocessingComponent, _step_decision_point_step_decision_point_component__WEBPACK_IMPORTED_MODULE_20__.StepDecisionPointComponent, _step_move_to_workflow_step_move_to_workflow_component__WEBPACK_IMPORTED_MODULE_55__.StepMoveToWorkflowComponent, _step_deliver_to_email_step_deliver_to_email_component__WEBPACK_IMPORTED_MODULE_22__.StepDeliverToEmailComponent, _step_deliver_to_interfax_step_deliver_to_interfax_component__WEBPACK_IMPORTED_MODULE_25__.StepDeliverToInterFAXComponent, _step_deliver_to_sharepoint365_step_deliver_to_sharepoint365_component__WEBPACK_IMPORTED_MODULE_31__.StepDeliverToSharepoint365Component, _step_deliver_to_sharepoint365_sharepoint_folder_sharepoint_folder_component__WEBPACK_IMPORTED_MODULE_29__.SharePointFolderComponent, _components_step_metadata_mapping_step_metadata_mapping_component__WEBPACK_IMPORTED_MODULE_10__.StepMetaDataMappingComponent, _step_interactive_step_interactive_thresholds_step_interactive_thresholds_component__WEBPACK_IMPORTED_MODULE_50__.StepInteractiveThresholdsComponent, _step_export_to_api_step_export_to_api_component__WEBPACK_IMPORTED_MODULE_39__.StepExportToAPIComponent, _step_barcode_data_mapping_step_barcode_data_mapping_component__WEBPACK_IMPORTED_MODULE_17__.StepBarcodeDataMappingComponent, _step_barcode_data_mapping_barcode_mappings_barcode_mappings_component__WEBPACK_IMPORTED_MODULE_16__.BarcodeMappingsComponent, _role_selector_role_selector_component__WEBPACK_IMPORTED_MODULE_12__.RoleSelectorComponent, _prompts_prompts_component__WEBPACK_IMPORTED_MODULE_11__.PromptsComponent, _step_delivery_to_netdocs_step_delivery_to_netdocs_component__WEBPACK_IMPORTED_MODULE_35__.StepDeliveryToNetdocsComponent, _step_deliver_to_net_docs_code_step_deliver_to_net_docs_code_component__WEBPACK_IMPORTED_MODULE_26__.StepDeliverToNetDocsCodeComponent, _step_deliver_to_s3_step_deliver_to_s3_component__WEBPACK_IMPORTED_MODULE_28__.StepDeliverToS3Component, _step_deliver_to_ftp_step_deliver_to_ftp_component__WEBPACK_IMPORTED_MODULE_24__.StepDeliverToFtpComponent, _step_interactive_step_interactive_training_step_interactive_training_component__WEBPACK_IMPORTED_MODULE_51__.StepInteractiveTrainingComponent, _step_forms_ai_step_forms_ai_component__WEBPACK_IMPORTED_MODULE_41__.StepFormsAiComponent, _step_set_data_fields_step_set_data_fields_component__WEBPACK_IMPORTED_MODULE_59__.StepSetDataFieldsComponent, _step_export_to_webservice_step_export_to_webservice_component__WEBPACK_IMPORTED_MODULE_40__.StepExportToWebServiceComponent, _step_interactive_step_interactive_advanced_step_interactive_advanced_component__WEBPACK_IMPORTED_MODULE_44__.StepInteractiveAdvancedComponent, _step_barcode_cover_page_step_barcode_cover_page_component__WEBPACK_IMPORTED_MODULE_15__.StepBarcodeCoverPageComponent, _step_invoice_extraction_step_invoice_extraction_component__WEBPACK_IMPORTED_MODULE_53__.StepInvoiceExtractionComponent, _step_detect_signature_step_detect_signature_component__WEBPACK_IMPORTED_MODULE_37__.StepDetectSignatureComponent, _step_detect_pii_step_detect_pii_component__WEBPACK_IMPORTED_MODULE_36__.StepDetectPiiComponent, _step_translate_document_step_translate_document_component__WEBPACK_IMPORTED_MODULE_66__.StepTranslateDocumentComponent, _step_summarization_step_summarization_component__WEBPACK_IMPORTED_MODULE_65__.StepSummarizationComponent, _step_simple_classifier_step_simple_classifier_component__WEBPACK_IMPORTED_MODULE_63__.StepSimpleClassifierComponent, _step_simple_classifier_classification_classification_component__WEBPACK_IMPORTED_MODULE_60__.ClassificationComponent, _step_simple_classifier_classification_content_criteria_content_criteria_component__WEBPACK_IMPORTED_MODULE_61__.ContentCriteriaComponent, _step_simple_classifier_classification_content_criteria_text_content_criteria_options_text_content_criteria_options_component__WEBPACK_IMPORTED_MODULE_62__.TextContentCriteriaOptionsComponent, _step_add_template_step_add_template_component__WEBPACK_IMPORTED_MODULE_14__.StepAddTemplateComponent, _step_keyword_extraction_step_keyword_extraction_component__WEBPACK_IMPORTED_MODULE_54__.StepKeywordExtractionComponent, _step_delivery_filebound_step_delivery_filebound_general_step_delivery_filebound_general_component__WEBPACK_IMPORTED_MODULE_32__.StepDeliveryFileboundGeneralComponent, _step_deliver_to_ftp_step_deliver_to_ftp_general_step_deliver_to_ftp_general_component__WEBPACK_IMPORTED_MODULE_23__.StepDeliverToFtpGeneralComponent, _step_deliver_to_email_step_deliver_to_email_general_step_deliver_to_email_general_component__WEBPACK_IMPORTED_MODULE_21__.StepDeliverToEmailGeneralComponent, _step_delivery_to_netdocs_step_delivery_to_netdocs_general_step_delivery_to_netdocs_general_component__WEBPACK_IMPORTED_MODULE_34__.StepDeliveryToNetdocsGeneralComponent, _step_deliver_to_s3_step_deliver_to_s3_general_step_deliver_to_s3_general_component__WEBPACK_IMPORTED_MODULE_27__.StepDeliverToS3GeneralComponent, _step_deliver_to_sharepoint365_step_deliver_to_sharepoint365_general_step_deliver_to_sharepoint365_general_component__WEBPACK_IMPORTED_MODULE_30__.StepDeliverToSharepoint365GeneralComponent, _components_export_metadata_export_metadata_component__WEBPACK_IMPORTED_MODULE_9__.ExportMetaDataComponent, _components_export_metadata_csv_export_metadata_csv_component__WEBPACK_IMPORTED_MODULE_7__.ExportMetaDataCsvComponent, _components_export_metadata_xml_export_metadata_xml_component__WEBPACK_IMPORTED_MODULE_8__.ExportMetaDataXmlComponent, _step_classifier_step_classifier_component__WEBPACK_IMPORTED_MODULE_19__.StepClassifierComponent, _step_rename_document_step_rename_document_component__WEBPACK_IMPORTED_MODULE_58__.StepRenameDocumentComponent, _step_ocrplus_step_ocrplus_component__WEBPACK_IMPORTED_MODULE_57__.StepOcrPlusComponent, _step_document_stamp_step_document_stamp_component__WEBPACK_IMPORTED_MODULE_38__.StepDocumentStampComponent],
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_69__.CommonModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_70__.TranslateModule, _blocks_page_page_module__WEBPACK_IMPORTED_MODULE_4__.PageModule, _angular_forms__WEBPACK_IMPORTED_MODULE_71__.FormsModule, ngx_file_drop__WEBPACK_IMPORTED_MODULE_72__.NgxFileDropModule, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_73__.DragDropModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.IconsModule, ngx_smart_modal__WEBPACK_IMPORTED_MODULE_74__.NgxSmartModalModule, ngx_perfect_scrollbar_portable__WEBPACK_IMPORTED_MODULE_75__.PerfectScrollbarModule, _admin_workflow_routing_module__WEBPACK_IMPORTED_MODULE_5__.AdminWorkflowRoutingModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FieldsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.AutoFocusFirstInputModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.LabelModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.CheckboxModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.RadioButtonsGroupModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.ModalHeaderModule, _blocks_components_components_module__WEBPACK_IMPORTED_MODULE_1__.ComponentsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.TabBarModule, _blocks_directives_directives_module__WEBPACK_IMPORTED_MODULE_2__.DirectivesModule, _blocks_formatters_formatters_module__WEBPACK_IMPORTED_MODULE_3__.FormattersModule]
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_69__.CommonModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_70__.TranslateModule, _blocks_page_page_module__WEBPACK_IMPORTED_MODULE_4__.PageModule, _angular_forms__WEBPACK_IMPORTED_MODULE_71__.FormsModule, ngx_file_drop__WEBPACK_IMPORTED_MODULE_72__.NgxFileDropModule, _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_73__.DragDropModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.IconsModule, ngx_smart_modal__WEBPACK_IMPORTED_MODULE_74__.NgxSmartModalModule, ngx_perfect_scrollbar_portable__WEBPACK_IMPORTED_MODULE_75__.PerfectScrollbarModule, _admin_workflow_routing_module__WEBPACK_IMPORTED_MODULE_5__.AdminWorkflowRoutingModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.FieldsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.AutoFocusFirstInputModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.LabelModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.CheckboxModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.RadioButtonsGroupModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.ModalHeaderModule, _blocks_components_components_module__WEBPACK_IMPORTED_MODULE_1__.ComponentsModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.TabBarModule, _blocks_directives_directives_module__WEBPACK_IMPORTED_MODULE_2__.DirectivesModule, _blocks_formatters_formatters_module__WEBPACK_IMPORTED_MODULE_3__.FormattersModule, shared_code_lib__WEBPACK_IMPORTED_MODULE_0__.ActionDropdownModule]
   });
 })();
 
@@ -7009,14 +7009,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blocks_core_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../blocks/core/actions */ 75414);
 /* harmony import */ var _blocks_core_fileName__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../blocks/core/fileName */ 28016);
 /* harmony import */ var _blocks_services_hydra_api_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../blocks/services/hydra-api.service */ 11070);
-/* harmony import */ var _blocks_services_user_state_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../blocks/services/user-state.service */ 99038);
-/* harmony import */ var _step__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../step */ 42337);
-/* harmony import */ var _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./step-document-stamp.enums */ 7980);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ 96623);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ngx-translate/core */ 77353);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common */ 39191);
-/* harmony import */ var _Bamba_Shared_src_fields_field_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../../../../Bamba.Shared/src/fields/field.component */ 69689);
-/* harmony import */ var _Bamba_Shared_src_form_tab_bar_tab_bar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../../../../Bamba.Shared/src/form/tab-bar/tab-bar.component */ 82649);
+/* harmony import */ var _blocks_services_spinner_state_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../blocks/services/spinner-state.service */ 9202);
+/* harmony import */ var _blocks_services_user_state_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../blocks/services/user-state.service */ 99038);
+/* harmony import */ var _step__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../step */ 42337);
+/* harmony import */ var _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./step-document-stamp.enums */ 7980);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/core */ 96623);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ngx-translate/core */ 77353);
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ngx-toastr */ 34942);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common */ 39191);
+/* harmony import */ var _Bamba_Shared_src_fields_field_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../../../../../Bamba.Shared/src/fields/field.component */ 69689);
+/* harmony import */ var _Bamba_Shared_src_form_label_label_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../../../../../Bamba.Shared/src/form/label/label.component */ 38861);
+/* harmony import */ var _Bamba_Shared_src_form_tab_bar_tab_bar_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../../../../../Bamba.Shared/src/form/tab-bar/tab-bar.component */ 82649);
+/* harmony import */ var _Bamba_Shared_src_components_action_dropdown_action_dropdown_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../../../../../Bamba.Shared/src/components/action-dropdown/action-dropdown.component */ 36327);
 
 
 
@@ -7034,449 +7038,503 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function StepDocumentStampComponent_Conditional_2_Case_0_ng_template_0_Template(rf, ctx) {}
-function StepDocumentStampComponent_Conditional_2_Case_0_Template(rf, ctx) {
+
+
+
+
+
+
+
+const _c0 = ["spinnerElement"];
+function StepDocumentStampComponent_Conditional_3_Case_0_ng_template_0_Template(rf, ctx) {}
+function StepDocumentStampComponent_Conditional_3_Case_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_2_Case_0_ng_template_0_Template, 0, 0, "ng-template", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_3_Case_0_ng_template_0_Template, 0, 0, "ng-template", 6);
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    const tabContentType_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵreference"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngTemplateOutlet", tabContentType_r2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    const tabContentType_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵreference"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngTemplateOutlet", tabContentType_r2);
   }
 }
-function StepDocumentStampComponent_Conditional_2_Case_1_ng_template_0_Template(rf, ctx) {}
-function StepDocumentStampComponent_Conditional_2_Case_1_Template(rf, ctx) {
+function StepDocumentStampComponent_Conditional_3_Case_1_ng_template_0_Template(rf, ctx) {}
+function StepDocumentStampComponent_Conditional_3_Case_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_2_Case_1_ng_template_0_Template, 0, 0, "ng-template", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_3_Case_1_ng_template_0_Template, 0, 0, "ng-template", 6);
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    const tabLocationType_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵreference"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngTemplateOutlet", tabLocationType_r3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    const tabLocationType_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵreference"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngTemplateOutlet", tabLocationType_r3);
   }
 }
-function StepDocumentStampComponent_Conditional_2_Case_2_ng_template_0_Template(rf, ctx) {}
-function StepDocumentStampComponent_Conditional_2_Case_2_Template(rf, ctx) {
+function StepDocumentStampComponent_Conditional_3_Case_2_ng_template_0_Template(rf, ctx) {}
+function StepDocumentStampComponent_Conditional_3_Case_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_2_Case_2_ng_template_0_Template, 0, 0, "ng-template", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_3_Case_2_ng_template_0_Template, 0, 0, "ng-template", 6);
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    const tabOptions_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵreference"](8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngTemplateOutlet", tabOptions_r4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    const tabOptions_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵreference"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngTemplateOutlet", tabOptions_r4);
   }
 }
-function StepDocumentStampComponent_Conditional_2_Template(rf, ctx) {
+function StepDocumentStampComponent_Conditional_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_2_Case_0_Template, 1, 1, null, 5)(1, StepDocumentStampComponent_Conditional_2_Case_1_Template, 1, 1, null, 5)(2, StepDocumentStampComponent_Conditional_2_Case_2_Template, 1, 1, null, 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, StepDocumentStampComponent_Conditional_3_Case_0_Template, 1, 1, null, 6)(1, StepDocumentStampComponent_Conditional_3_Case_1_Template, 1, 1, null, 6)(2, StepDocumentStampComponent_Conditional_3_Case_2_Template, 1, 1, null, 6);
   }
   if (rf & 2) {
-    let tmp_4_0;
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵconditional"]((tmp_4_0 = ctx_r4.currentlySelectedTab) === ctx_r4.AvailableTabs.ContentTypes ? 0 : tmp_4_0 === ctx_r4.AvailableTabs.LocationTypes ? 1 : tmp_4_0 === ctx_r4.AvailableTabs.Options ? 2 : -1);
+    let tmp_5_0;
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵconditional"]((tmp_5_0 = ctx_r4.currentlySelectedTab) === ctx_r4.AvailableTabs.ContentTypes ? 0 : tmp_5_0 === ctx_r4.AvailableTabs.LocationTypes ? 1 : tmp_5_0 === ctx_r4.AvailableTabs.Options ? 2 : -1);
   }
 }
-function StepDocumentStampComponent_ng_template_3_Case_1_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_4_Case_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 9)(2, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_1_Template_app_field_valueChange_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.fontFamily, $event) || (ctx_r4.documentStampWorkflowStep.content.fontFamily = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_1_Template_app_field_valueChange_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r7);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.fontFamily, $event) || (ctx_r4.documentStampWorkflowStep.content.fontFamily = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 10)(4, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_1_Template_app_field_valueChange_4_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.content.fontSize = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 10)(4, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_1_Template_app_field_valueChange_4_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r7);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.content.fontSize = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](5, "div", 10)(6, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_1_Template_app_field_valueChange_6_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.content.mode = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 10)(6, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_1_Template_app_field_valueChange_6_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r7);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.content.mode = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](7, "div", 10)(8, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_1_Template_app_field_valueChange_8_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.color, $event) || (ctx_r4.documentStampWorkflowStep.content.color = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "div", 10)(8, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_1_Template_app_field_valueChange_8_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r7);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.color, $event) || (ctx_r4.documentStampWorkflowStep.content.color = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](9, "div", 7)(10, "div", 11)(11, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_1_Template_app_field_valueChange_11_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r7);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.text, $event) || (ctx_r4.documentStampWorkflowStep.content.text = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "div", 8)(10, "div", 11)(11, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_1_Template_app_field_valueChange_11_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r7);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.text, $event) || (ctx_r4.documentStampWorkflowStep.content.text = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.text.font);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.fontFamily);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.content.fontSize);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.text.size);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.content.mode);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.text.mode);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.text.color);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.color);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.text.textField);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.text);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.text.font);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.fontFamily);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.content.fontSize);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.text.size);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.content.mode);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.text.mode);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.text.color);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.color);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.text.textField);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.text);
   }
 }
-function StepDocumentStampComponent_ng_template_3_Case_2_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_4_Case_2_img_4_Template(rf, ctx) {
   if (rf & 1) {
-    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 11)(2, "input", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("change", function StepDocumentStampComponent_ng_template_3_Case_2_Template_input_change_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r8);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.onFileInputChange($event));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "img", 14);
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("accept", ctx_r4.supportedFileTypes);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("src", ctx_r4.imageSource, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵsanitizeUrl"]);
   }
 }
-function StepDocumentStampComponent_ng_template_3_Case_3_app_field_0_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_4_Case_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_3_app_field_0_Template_app_field_valueChange_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r9);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.stamp, $event) || (ctx_r4.documentStampWorkflowStep.content.stamp = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 11)(2, "input", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("change", function StepDocumentStampComponent_ng_template_4_Case_2_Template_input_change_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r8);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.onFileInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, StepDocumentStampComponent_ng_template_4_Case_2_img_4_Template, 1, 1, "img", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.stamp.stampField);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.stamp);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("accept", ctx_r4.supportedFileTypes);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", ctx_r4.imageSource);
   }
 }
-function StepDocumentStampComponent_ng_template_3_Case_3_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_4_Case_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](0, StepDocumentStampComponent_ng_template_3_Case_3_app_field_0_Template, 1, 2, "app-field", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "app-label", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](1, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "action-dropdown", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](3, "translate");
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("ngIf", ctx_r4.fields == null ? null : ctx_r4.fields.content == null ? null : ctx_r4.fields.content.stamp == null ? null : ctx_r4.fields.content.stamp.stampField);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("text", _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipeBind1"](1, 11, "step-document-stamp.stamp"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("title", _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipeBind1"](3, 13, "step-document-stamp.stamp"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("actionPlaceHolder", ctx_r4.documentStampWorkflowStep.content.stamp)("onChangeAction", ctx_r4.onStampChanged)("listItems", ctx_r4.stampItems)("minWidth", 100)("minListWidth", 140)("displayHtmlValue", true)("isSelectable", true)("container", ".nsm-content")("actionDropTypeType", "button");
   }
 }
-function StepDocumentStampComponent_ng_template_3_Case_4_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_4_Case_4_Template(rf, ctx) {
   if (rf & 1) {
-    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 9)(2, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_4_Template_app_field_valueChange_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r10);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.barcodeType, $event) || (ctx_r4.documentStampWorkflowStep.content.barcodeType = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_4_Template_app_field_valueChange_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r9);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.barcodeType, $event) || (ctx_r4.documentStampWorkflowStep.content.barcodeType = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 7)(4, "div", 11)(5, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Case_4_Template_app_field_valueChange_5_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r10);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.barcodeValue, $event) || (ctx_r4.documentStampWorkflowStep.content.barcodeValue = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 8)(4, "div", 11)(5, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Case_4_Template_app_field_valueChange_5_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r9);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.barcodeValue, $event) || (ctx_r4.documentStampWorkflowStep.content.barcodeValue = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.barcode.barcodeType);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.barcodeType);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.barcode.barcodeValue);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.barcodeValue);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.barcode.barcodeType);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.barcodeType);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.barcode.barcodeValue);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.barcodeValue);
   }
 }
-function StepDocumentStampComponent_ng_template_3_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_4_Template(rf, ctx) {
   if (rf & 1) {
-    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_3_Template_app_field_valueChange_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r6);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.type, $event) || (ctx_r4.documentStampWorkflowStep.content.type = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_4_Template_app_field_valueChange_0_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r6);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.content.type, $event) || (ctx_r4.documentStampWorkflowStep.content.type = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](1, StepDocumentStampComponent_ng_template_3_Case_1_Template, 12, 10)(2, StepDocumentStampComponent_ng_template_3_Case_2_Template, 3, 1, "div", 7)(3, StepDocumentStampComponent_ng_template_3_Case_3_Template, 1, 1, "app-field", 8)(4, StepDocumentStampComponent_ng_template_3_Case_4_Template, 6, 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, StepDocumentStampComponent_ng_template_4_Case_1_Template, 12, 10)(2, StepDocumentStampComponent_ng_template_4_Case_2_Template, 5, 2, "div", 8)(3, StepDocumentStampComponent_ng_template_4_Case_3_Template, 4, 15)(4, StepDocumentStampComponent_ng_template_4_Case_4_Template, 6, 4);
   }
   if (rf & 2) {
-    let tmp_6_0;
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.content.type);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.type);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵconditional"]((tmp_6_0 = ctx_r4.documentStampWorkflowStep.content.type) === "TextContent" ? 1 : tmp_6_0 === "ImageContent" ? 2 : tmp_6_0 === "StampContent" ? 3 : tmp_6_0 === "BarcodeContent" ? 4 : -1);
+    let tmp_7_0;
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.content.type);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.content.type);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵconditional"]((tmp_7_0 = ctx_r4.documentStampWorkflowStep.content.type) === "TextContent" ? 1 : tmp_7_0 === "ImageContent" ? 2 : tmp_7_0 === "StampContent" ? 3 : tmp_7_0 === "BarcodeContent" ? 4 : -1);
   }
 }
-function StepDocumentStampComponent_ng_template_5_Case_1_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_6_Case_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 9)(2, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_1_Template_app_field_valueChange_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r12);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.horizontal = ctx_r4.Number($event));
+    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_1_Template_app_field_valueChange_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r11);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.horizontal = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 7)(4, "div", 9)(5, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_1_Template_app_field_valueChange_5_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r12);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.vertical = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 8)(4, "div", 9)(5, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_1_Template_app_field_valueChange_5_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r11);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.vertical = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.horizontal);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.relative.horizontal);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.vertical);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.relative.vertical);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.horizontal);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.relative.horizontal);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.vertical);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.relative.vertical);
   }
 }
-function StepDocumentStampComponent_ng_template_5_Case_2_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_6_Case_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 10)(2, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_2_Template_app_field_valueChange_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r13);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.top = ctx_r4.Number($event));
+    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 10)(2, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_2_Template_app_field_valueChange_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r12);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.top = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 9)(4, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_2_Template_app_field_valueChange_4_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r13);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.topUnits = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 9)(4, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_2_Template_app_field_valueChange_4_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r12);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.topUnits = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](5, "div", 7)(6, "div", 10)(7, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_2_Template_app_field_valueChange_7_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r13);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.left = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 8)(6, "div", 10)(7, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_2_Template_app_field_valueChange_7_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r12);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.left = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](8, "div", 9)(9, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_2_Template_app_field_valueChange_9_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r13);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.leftUnits = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 9)(9, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_2_Template_app_field_valueChange_9_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r12);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.leftUnits = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.top);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.top);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.topUnits);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.topUnits);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.left);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.left);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.leftUnits);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.leftUnits);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.top);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.top);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.topUnits);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.topUnits);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.left);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.left);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.leftUnits);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.specific.leftUnits);
   }
 }
-function StepDocumentStampComponent_ng_template_5_Case_3_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_6_Case_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 9)(2, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_3_Template_app_field_valueChange_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r14);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.insertAt = ctx_r4.Number($event));
+    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_3_Template_app_field_valueChange_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r13);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.insertAt = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 7)(4, "div", 9)(5, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Case_3_Template_app_field_valueChange_5_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r14);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.horizontalAlignment = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 8)(4, "div", 9)(5, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Case_3_Template_app_field_valueChange_5_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r13);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.location.horizontalAlignment = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.insertAt);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.stretch.insertAt);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.horizontalAlignment);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.stretch.horizontalAlignment);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.insertAt);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.stretch.insertAt);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.location.horizontalAlignment);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.stretch.horizontalAlignment);
   }
 }
-function StepDocumentStampComponent_ng_template_5_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_6_Template(rf, ctx) {
   if (rf & 1) {
-    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_5_Template_app_field_valueChange_0_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r11);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.location.type, $event) || (ctx_r4.documentStampWorkflowStep.location.type = $event);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"]($event);
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("valueChange", function StepDocumentStampComponent_ng_template_6_Template_app_field_valueChange_0_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r10);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayBindingSet"](ctx_r4.documentStampWorkflowStep.location.type, $event) || (ctx_r4.documentStampWorkflowStep.location.type = $event);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](1, StepDocumentStampComponent_ng_template_5_Case_1_Template, 6, 4)(2, StepDocumentStampComponent_ng_template_5_Case_2_Template, 10, 8)(3, StepDocumentStampComponent_ng_template_5_Case_3_Template, 6, 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, StepDocumentStampComponent_ng_template_6_Case_1_Template, 6, 4)(2, StepDocumentStampComponent_ng_template_6_Case_2_Template, 10, 8)(3, StepDocumentStampComponent_ng_template_6_Case_3_Template, 6, 4);
   }
   if (rf & 2) {
-    let tmp_6_0;
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.location.type);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.location.type);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵconditional"]((tmp_6_0 = ctx_r4.documentStampWorkflowStep.location.type) === "RelativeLocation" ? 1 : tmp_6_0 === "SpecificLocation" ? 2 : tmp_6_0 === "StretchLocation" ? 3 : -1);
+    let tmp_7_0;
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.location.type);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("value", ctx_r4.documentStampWorkflowStep.location.type);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵconditional"]((tmp_7_0 = ctx_r4.documentStampWorkflowStep.location.type) === "RelativeLocation" ? 1 : tmp_7_0 === "SpecificLocation" ? 2 : tmp_7_0 === "StretchLocation" ? 3 : -1);
   }
 }
-function StepDocumentStampComponent_ng_template_7_Template(rf, ctx) {
+function StepDocumentStampComponent_ng_template_8_Template(rf, ctx) {
   if (rf & 1) {
-    const _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 7)(1, "div", 9)(2, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_7_Template_app_field_valueChange_2_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r15);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.options.rotationDegrees = ctx_r4.Number($event));
+    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 8)(1, "div", 9)(2, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_8_Template_app_field_valueChange_2_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r14);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.options.rotationDegrees = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](3, "div", 7)(4, "div", 9)(5, "app-field", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_7_Template_app_field_valueChange_5_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r15);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.options.applyToPages = ctx_r4.Number($event));
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 8)(4, "div", 9)(5, "app-field", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("valueChange", function StepDocumentStampComponent_ng_template_8_Template_app_field_valueChange_5_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r14);
+      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r4.documentStampWorkflowStep.options.applyToPages = ctx_r4.Number($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.options.rotationDegrees);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.options.rotate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.options.applyToPages);
-    _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("field", ctx_r4.fields.options.applyTo);
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.options.rotationDegrees);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.options.rotate);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpropertyInterpolate"]("value", ctx_r4.documentStampWorkflowStep.options.applyToPages);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("field", ctx_r4.fields.options.applyTo);
   }
 }
 class StepDocumentStampComponent {
-  constructor(hydra, userState, translate) {
+  constructor(hydra, userState, translate, spinnerState, toast) {
     var _this = this;
     this.hydra = hydra;
     this.userState = userState;
     this.translate = translate;
-    this.tabs = [new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Tab(`${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.AvailableTabs.ContentTypes}`, this.translate.instant('step-document-stamp.content')), new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Tab(`${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.AvailableTabs.LocationTypes}`, this.translate.instant('step-document-stamp.location')), new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Tab(`${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.AvailableTabs.Options}`, this.translate.instant('step-document-stamp.options'))];
+    this.spinnerState = spinnerState;
+    this.toast = toast;
+    this.tabs = [new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Tab(`${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.AvailableTabs.ContentTypes}`, this.translate.instant('step-document-stamp.content')), new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Tab(`${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.AvailableTabs.LocationTypes}`, this.translate.instant('step-document-stamp.location')), new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Tab(`${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.AvailableTabs.Options}`, this.translate.instant('step-document-stamp.options'))];
     this.supportedFileTypes = _blocks_core_fileName__WEBPACK_IMPORTED_MODULE_4__.Filename.supportedImageFileTypes;
-    this.currentlySelectedTab = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.AvailableTabs.ContentTypes;
-    this.AvailableTabs = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.AvailableTabs;
-    this.ContentTypes = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ContentTypes;
-    this.LocationTypes = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LocationTypes;
+    this.currentlySelectedTab = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.AvailableTabs.ContentTypes;
+    this.AvailableTabs = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.AvailableTabs;
+    this.ContentTypes = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ContentTypes;
+    this.LocationTypes = _step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LocationTypes;
     this.Action = _blocks_core_actions__WEBPACK_IMPORTED_MODULE_3__.Action;
     this.Number = Number;
+    this.imageSource = '';
     this.onAnnotationConfigLoad = config => {
       this.createFields(config);
+      this.spinnerState.hide();
     };
-    this.onAnnotationConfigLoadFailed = err => {};
+    this.onAnnotationConfigLoadFailed = err => {
+      this.toast.error(this.translate.instant('step-document-stamp.annotation-load-failed'));
+      this.spinnerState.hide();
+    };
+    this.onStampChanged = newStamp => {
+      this.documentStampWorkflowStep.content.stamp = `${newStamp?.value ?? ''}`;
+    };
     this.createFields = config => {
-      this.fields = {};
-      const fontFamilies = config.fontNames.map(f => ({
+      const fontFamilies = config?.fontNames?.map(f => ({
         name: f,
         value: f,
         style: `font-family: ${f};`
-      }));
-      const fontSizes = config.fontSizes.map(px => ({
+      })) ?? [];
+      const fontSizes = config?.fontSizes?.map(px => ({
         name: `${px}`,
         value: `${px}`,
         style: `font-size: ${px}px;`
-      }));
-      const fontColors = _blocks_components_html_editor_html_editor_toolbar_editor_toolbar_constants__WEBPACK_IMPORTED_MODULE_2__.FontColors.defaultColors.map(c => ({
+      })) ?? [];
+      const fontColors = _blocks_components_html_editor_html_editor_toolbar_editor_toolbar_constants__WEBPACK_IMPORTED_MODULE_2__.FontColors?.defaultColors?.map(c => ({
         name: c.key,
         value: c.value
-      }));
-      const barcodeTypes = _blocks_components_html_editor_html_editor_toolbar_editor_toolbar_constants__WEBPACK_IMPORTED_MODULE_2__.supportedBarcodesArray.filter(bc => this.userState.hasFeature(`BARCODE_${bc.value.toUpperCase()}`)).map(bc => ({
+      })) ?? [];
+      const barcodeTypes = _blocks_components_html_editor_html_editor_toolbar_editor_toolbar_constants__WEBPACK_IMPORTED_MODULE_2__.supportedBarcodesArray?.filter(bc => this.userState.hasFeature(`BARCODE_${bc.value.toUpperCase()}`))?.map(bc => ({
         name: bc.name,
         value: bc.value
+      })) ?? [];
+      this.stampItems = config?.stamps?.map(s => {
+        shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Graphics.loadStamp(s);
+        return {
+          name: '',
+          html: `<img class="stamp-image" src="api/user/annotations/stamps/${s}" />`,
+          value: s
+        };
+      }) ?? [];
+      this.onStampChanged(this.stampItems[0]);
+      this.fields = {
+        content: this.getContentFields(fontFamilies, fontSizes, fontColors, this.stampItems, barcodeTypes),
+        location: this.getLocationFields(),
+        options: this.getOptionsFields()
+      };
+    };
+    this.onTabSelected = tab => {
+      this.currentlySelectedTab = Number(tab);
+    };
+    this.onFileInputChange = /*#__PURE__*/function () {
+      var _ref = (0,C_work_upland_bamba_CORE21_NG_1_Bamba_Web_ClientApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (event) {
+        const files = Array.from(event.target.files);
+        const base64 = files.length !== 0 ? yield shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Files.toBase64String(files[0], true) : '';
+        _this.documentStampWorkflowStep.content.base64 = base64;
+        _this.imageSource = base64 ? `data:image/${files[0].type};base64,${base64}` : '';
+      });
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }();
+    this.getContentFields = (fontFamilies, fontSizes, fontColors, stamps, barcodeTypes) => {
+      const contentTypes = [{
+        shouldShow: fontFamilies.length > 0,
+        name: this.translate.instant('step-document-stamp.text'),
+        value: 'TextContent'
+      }, {
+        shouldShow: true,
+        name: this.translate.instant('step-document-stamp.image'),
+        value: 'ImageContent'
+      }, {
+        shouldShow: stamps.length > 0,
+        name: this.translate.instant('step-document-stamp.stamp'),
+        value: 'StampContent'
+      }, {
+        shouldShow: barcodeTypes.length > 0,
+        name: this.translate.instant('step-document-stamp.barcode'),
+        value: 'BarcodeContent'
+      }].filter(content => content.shouldShow).map(f => ({
+        name: f.name,
+        value: f.value
       }));
-      const stamps = config.stamps.map(s => ({
-        name: s,
-        value: s
-      }));
-      this.fields.content = {
+      return {
         type: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
           type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
-          datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
-            name: this.translate.instant('step-document-stamp.text'),
-            value: 'TextContent'
-          }, {
-            name: this.translate.instant('step-document-stamp.image'),
-            value: 'ImageContent'
-          }, {
-            name: this.translate.instant('step-document-stamp.stamp'),
-            value: 'StampContent'
-          }, {
-            name: this.translate.instant('step-document-stamp.barcode'),
-            value: 'BarcodeContent'
-          }]),
+          datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(contentTypes),
+          defaultValue: contentTypes[0].value,
           label: this.translate.instant('step-document-stamp.type')
         }),
         text: {
           font: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(fontFamilies),
-            defaultValue: fontFamilies[0].value,
+            defaultValue: fontFamilies[0]?.value,
             label: this.translate.instant('step-document-stamp.font-family')
           }),
           size: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(fontSizes),
-            defaultValue: fontSizes[0].value,
+            defaultValue: fontSizes[0]?.value,
             label: this.translate.instant('step-document-stamp.font-size')
           }),
           mode: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.solid'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ContentTextModes.Solid}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ContentTextModes.Solid}`
             }, {
               name: this.translate.instant('step-document-stamp.outline'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ContentTextModes.Outline}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ContentTextModes.Outline}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ContentTextModes.Solid}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ContentTextModes.Solid}`,
             label: this.translate.instant('step-document-stamp.font-mode')
           }),
           color: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(fontColors),
-            defaultValue: fontColors.find(f => f.name === 'Black').value,
+            defaultValue: fontColors.find(f => f.name === 'Black')?.value,
             label: this.translate.instant('step-document-stamp.font-color')
           }),
           textField: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
@@ -7485,22 +7543,11 @@ class StepDocumentStampComponent {
             substitutable: true
           })
         },
-        image: {
-          imageField: null
-        },
-        stamp: {
-          stampField: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
-            type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
-            datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(stamps),
-            defaultValue: stamps[0].value,
-            label: this.translate.instant('step-document-stamp.stamp')
-          })
-        },
         barcode: {
           barcodeType: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource(barcodeTypes),
-            defaultValue: barcodeTypes[0].value,
+            defaultValue: barcodeTypes[0]?.value,
             label: this.translate.instant('step-document-stamp.barcode-type')
           }),
           barcodeValue: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
@@ -7509,7 +7556,9 @@ class StepDocumentStampComponent {
           })
         }
       };
-      this.fields.location = {
+    };
+    this.getLocationFields = () => {
+      return {
         type: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
           type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
           datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
@@ -7530,30 +7579,30 @@ class StepDocumentStampComponent {
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.left'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Left}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Left}`
             }, {
               name: this.translate.instant('step-document-stamp.center'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Center}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Center}`
             }, {
               name: this.translate.instant('step-document-stamp.right'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Right}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Right}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Left}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Left}`,
             label: this.translate.instant('step-document-stamp.horizontal-alignment')
           }),
           vertical: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.top'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.VerticalLocations.Top}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.VerticalLocations.Top}`
             }, {
               name: this.translate.instant('step-document-stamp.center'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.VerticalLocations.Center}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.VerticalLocations.Center}`
             }, {
               name: this.translate.instant('step-document-stamp.bottom'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.VerticalLocations.Bottom}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.VerticalLocations.Bottom}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.VerticalLocations.Top}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.VerticalLocations.Top}`,
             label: this.translate.instant('step-document-stamp.vertical-alignment')
           })
         },
@@ -7570,30 +7619,30 @@ class StepDocumentStampComponent {
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.in'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Inches}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Inches}`
             }, {
               name: this.translate.instant('step-document-stamp.mm'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Millimeters}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Millimeters}`
             }, {
               name: this.translate.instant('step-document-stamp.pt'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Points}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Points}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Inches}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Inches}`,
             label: this.translate.instant('step-document-stamp.top-units')
           }),
           leftUnits: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.in'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Inches}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Inches}`
             }, {
               name: this.translate.instant('step-document-stamp.mm'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Millimeters}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Millimeters}`
             }, {
               name: this.translate.instant('step-document-stamp.pt'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Points}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Points}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.LengthUnits.Inches}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.LengthUnits.Inches}`,
             label: this.translate.instant('step-document-stamp.left-units')
           })
         },
@@ -7602,29 +7651,31 @@ class StepDocumentStampComponent {
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.top'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.VerticalLocations.Top}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.VerticalLocations.Top}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.VerticalLocations.Top}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.VerticalLocations.Top}`,
             label: this.translate.instant('step-document-stamp.insert-at')
           }),
           horizontalAlignment: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
             type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
             datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
               name: this.translate.instant('step-document-stamp.left'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Left}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Left}`
             }, {
               name: this.translate.instant('step-document-stamp.center'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Center}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Center}`
             }, {
               name: this.translate.instant('step-document-stamp.right'),
-              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Right}`
+              value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Right}`
             }]),
-            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.HorizontalLocations.Left}`,
+            defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.HorizontalLocations.Left}`,
             label: this.translate.instant('step-document-stamp.horizontal-alignment')
           })
         }
       };
-      this.fields.options = {
+    };
+    this.getOptionsFields = () => {
+      return {
         rotate: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FieldDefinition({
           type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.Integer,
           label: this.translate.instant('step-document-stamp.rotation-degrees')
@@ -7633,76 +7684,73 @@ class StepDocumentStampComponent {
           type: shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.MetaDataType.List,
           datasource: new shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.FixedDataSource([{
             name: this.translate.instant('step-document-stamp.all-pages'),
-            value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ApplyToPages.All}`
+            value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ApplyToPages.All}`
           }, {
             name: this.translate.instant('step-document-stamp.first-page'),
-            value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ApplyToPages.First}`
+            value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ApplyToPages.First}`
           }, {
             name: this.translate.instant('step-document-stamp.last-page'),
-            value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ApplyToPages.Last}`
+            value: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ApplyToPages.Last}`
           }]),
-          defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_8__.ApplyToPages.All}`,
+          defaultValue: `${_step_document_stamp_enums__WEBPACK_IMPORTED_MODULE_9__.ApplyToPages.All}`,
           label: this.translate.instant('step-document-stamp.apply-to')
         })
       };
     };
-    this.onTabSelected = tab => {
-      this.currentlySelectedTab = Number(tab);
-    };
-    this.onFileInputChange = /*#__PURE__*/function () {
-      var _ref = (0,C_work_upland_bamba_CORE21_NG_1_Bamba_Web_ClientApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (event) {
-        const files = Array.from(event.target.files);
-        const base64 = files.length !== 0 ? yield shared_code_lib__WEBPACK_IMPORTED_MODULE_1__.Files.toBase64String(files[0], true) : '';
-        _this.documentStampWorkflowStep.content.base64 = base64;
-      });
-      return function (_x) {
-        return _ref.apply(this, arguments);
-      };
-    }();
   }
   ngOnInit() {
     this.documentStampWorkflowStep = {
       ...this.step.workflowStep
     };
+    this.spinnerState.show(this.translate.instant('step-document-stamp.loading-annotation-config'), this.spinnerElement.nativeElement);
     this.hydra.getAnnotationConfigurations(this.onAnnotationConfigLoad, this.onAnnotationConfigLoadFailed);
   }
   static {
     this.ɵfac = function StepDocumentStampComponent_Factory(__ngFactoryType__) {
-      return new (__ngFactoryType__ || StepDocumentStampComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_blocks_services_hydra_api_service__WEBPACK_IMPORTED_MODULE_5__.HydraApiService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_blocks_services_user_state_service__WEBPACK_IMPORTED_MODULE_6__.UserStateService), _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__.TranslateService));
+      return new (__ngFactoryType__ || StepDocumentStampComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_blocks_services_hydra_api_service__WEBPACK_IMPORTED_MODULE_5__.HydraApiService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_blocks_services_user_state_service__WEBPACK_IMPORTED_MODULE_7__.UserStateService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](_blocks_services_spinner_state_service__WEBPACK_IMPORTED_MODULE_6__.SpinnerStateService), _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdirectiveInject"](ngx_toastr__WEBPACK_IMPORTED_MODULE_16__.ToastrService));
     };
   }
   static {
-    this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineComponent"]({
+    this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵdefineComponent"]({
       type: StepDocumentStampComponent,
       selectors: [["app-step-document-stamp"]],
+      viewQuery: function StepDocumentStampComponent_Query(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵviewQuery"](_c0, 7);
+        }
+        if (rf & 2) {
+          let _t;
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵloadQuery"]()) && (ctx.spinnerElement = _t.first);
+        }
+      },
       inputs: {
         step: "step"
       },
-      decls: 9,
+      decls: 10,
       vars: 2,
-      consts: [["tabContentType", ""], ["tabLocationType", ""], ["tabOptions", ""], [1, "modal-body", "pt-3"], [3, "tabSelected", "tabs"], [3, "ngTemplateOutlet"], [3, "valueChange", "field", "value"], [1, "row"], [3, "field", "value"], [1, "col-6"], [1, "col-2"], [1, "col"], ["type", "file", 3, "change", "accept"], [3, "field", "value", "valueChange", 4, "ngIf"]],
+      consts: [["spinnerElement", ""], ["tabContentType", ""], ["tabLocationType", ""], ["tabOptions", ""], [1, "modal-body", "pt-3"], [3, "tabSelected", "tabs"], [3, "ngTemplateOutlet"], [3, "valueChange", "field", "value"], [1, "row"], [1, "col-6"], [1, "col-2"], [1, "col"], ["type", "file", 3, "change", "accept"], ["width", "300", 3, "src", 4, "ngIf"], ["width", "300", 3, "src"], [3, "text"], [3, "actionPlaceHolder", "onChangeAction", "listItems", "minWidth", "minListWidth", "displayHtmlValue", "isSelectable", "container", "actionDropTypeType", "title"]],
       template: function StepDocumentStampComponent_Template(rf, ctx) {
         if (rf & 1) {
-          const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵgetCurrentView"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementStart"](0, "div", 3)(1, "app-tab-bar", 4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵlistener"]("tabSelected", function StepDocumentStampComponent_Template_app_tab_bar_tabSelected_1_listener($event) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵrestoreView"](_r1);
-            return _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵresetView"](ctx.onTabSelected($event));
+          const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 4, 0)(2, "app-tab-bar", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("tabSelected", function StepDocumentStampComponent_Template_app_tab_bar_tabSelected_2_listener($event) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r1);
+            return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx.onTabSelected($event));
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](2, StepDocumentStampComponent_Conditional_2_Template, 3, 1);
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplate"](3, StepDocumentStampComponent_ng_template_3_Template, 5, 3, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplateRefExtractor"])(5, StepDocumentStampComponent_ng_template_5_Template, 4, 3, "ng-template", null, 1, _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplateRefExtractor"])(7, StepDocumentStampComponent_ng_template_7_Template, 6, 4, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵtemplateRefExtractor"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, StepDocumentStampComponent_Conditional_3_Template, 3, 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, StepDocumentStampComponent_ng_template_4_Template, 5, 3, "ng-template", null, 1, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"])(6, StepDocumentStampComponent_ng_template_6_Template, 4, 3, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"])(8, StepDocumentStampComponent_ng_template_8_Template, 6, 4, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"]);
         }
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("tabs", ctx.tabs);
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵadvance"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵconditional"](ctx.fields ? 2 : -1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("tabs", ctx.tabs);
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵconditional"](ctx.fields && ctx.fields.content && ctx.fields.location && ctx.fields.options ? 3 : -1);
         }
       },
-      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_13__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_13__.NgTemplateOutlet, _Bamba_Shared_src_fields_field_component__WEBPACK_IMPORTED_MODULE_9__.FieldComponent, _Bamba_Shared_src_form_tab_bar_tab_bar_component__WEBPACK_IMPORTED_MODULE_10__.TabBarComponent],
-      styles: ["\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"],
+      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_17__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_17__.NgTemplateOutlet, _Bamba_Shared_src_fields_field_component__WEBPACK_IMPORTED_MODULE_10__.FieldComponent, _Bamba_Shared_src_form_label_label_component__WEBPACK_IMPORTED_MODULE_11__.LabelComponent, _Bamba_Shared_src_form_tab_bar_tab_bar_component__WEBPACK_IMPORTED_MODULE_12__.TabBarComponent, _Bamba_Shared_src_components_action_dropdown_action_dropdown_component__WEBPACK_IMPORTED_MODULE_13__.ActionDropdownComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__.TranslatePipe],
+      styles: [".stamp-image {\n  width: 100%;\n  height: 18px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvdmlld3MvYWRtaW4td29ya2Zsb3cvc3RlcC1kb2N1bWVudC1zdGFtcC9zdGVwLWRvY3VtZW50LXN0YW1wLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi5zdGFtcC1pbWFnZSB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxOHB4O1xyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */"],
       encapsulation: 2
     });
   }

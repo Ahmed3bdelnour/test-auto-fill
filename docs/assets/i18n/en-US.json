@@ -1447,8 +1447,8 @@
     "step-class-name": "Step Class Name",
     "step-display-name": "Step Display Name",
     "step-name": "Step Name",
-    "type": "Base Cost Type",
-    "value": "Base Cost Value",
+    "type": "Default Base Cost Type",
+    "value": "Default Base Cost Value",
     "constant": "Constant",
     "multiplier": "Multiplier",
     "saved": "Saved successfully!",
@@ -1457,8 +1457,20 @@
     "note": "NOTE: Each document using this Workflow Step will decrement your Page Count license by",
     "additional": "an additional",
     "page-count": "time(s) the number of pages",
-    "document-pages-count": "document pages count"
+    "document-pages-count": "document pages count",
+    "brand-overrides": "Brand Overrides",
+    "brands-load-failed": "Failed to load brands",
+    "add-brand-override": "Add",
+    "brand": "Brand",
+    "base-cost-type": "Base Cost Type",
+    "base-cost-value": "Base Cost Value"
   },
+
+  "WorkflowStepCostTypeEnum": {
+    "Constant": "Constant",
+    "Multiplier": "Multiplier"
+  },
+
   "document-actions": {
     "save": "Save",
     "edit": "Edit",
@@ -1617,6 +1629,7 @@
     "tenant-type": "Type",
     "normal": "Normal",
     "partner": "Partner",
+    "InterFAX": "InterFAX",
     "partnerTenantsLoadFailed": "Failed to load partner tenants",
     "billable": "Billable (include in billing reports)",
     "session-timeout": "Session Timeout (in minutes)",
@@ -2399,7 +2412,9 @@
     "left-units": "Left Units",
     "insert-at": "Insert At",
     "apply-to": "Apply To",
-    "rotation-degrees": "Rotation (Degrees)"
+    "rotation-degrees": "Rotation (Degrees)",
+    "loading-annotation-config": "Loading annotation configuration...",
+    "annotation-load-failed": "Failed to load annotation configuration"
   },
   "step-detect-pii": {
     "confidenceThreshold": "Confidence Threshold",
@@ -3545,7 +3560,13 @@
     "variables": "Variables",
     "configurator-settings": "Configurator Settings"
   },
-
+  "interfax-share": {
+    "include-message": "Send message to sharee(s)",
+    "share-button": "Share",
+    "title-share": "Sharing",
+    "title-faxes": "fax(es)",
+    "sharing-success": "Successfully Shared Document(s)"
+  },
   "view-workflow-permissions-modal": {
     "title": "View Workflow Permissions",
     "loading": "Loading...",
